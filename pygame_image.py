@@ -58,3 +58,6 @@ if __name__ == "__main__":
     main()
     pg.quit()
     sys.exit()
+
+with open(file_path, 'w', encoding='utf-8') as file:
+    file.write(refactored_code)
